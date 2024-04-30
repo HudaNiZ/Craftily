@@ -1,0 +1,164 @@
+body { 
+  background-image:url(Base/background.jpg);
+  background-color: #EDEEF1;
+  text-align: center; 
+}
+
+.navbar {
+  background-image: url("/Users/joorym/Downloads/Aesthetic Villanueva.png");
+  background-repeat: no-repeat;
+
+  overflow: hidden;
+  background-color:#3C4C70  ; /* color of the box  #EDEEF1  #3C4C70 #333  */ 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: #EDEEF1; /* white text coloer  */ 
+  text-align: center;
+  padding: 25px 35px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: #EDEEF1; /* text coloer */ 
+  padding: 25px 35px;
+  background-color:  #3C4C70 ;  /*  #3C4C70 background color box  */ 
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #DCA1B0; /* color of the text ......*/ 
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9; /* the background color of the content in side the drop down  */ 
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: #3C4C70;  /* text color inside */ 
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;   /* Color in side the drop down content */
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+h1 {
+  background-color: #EDEEF1;
+  text-align: center;
+  font-family: Gabriola, Lucida Handwriting, Lovelo, Forte;
+  color:#D87F98;
+}
+
+footer {  
+  background-color: #3C4C70;
+  color: #EDEEF1;
+  font-size: .60em;
+  font-style: italic;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+a {
+  color: #EDEEF1;
+}
+
+/*-------------------- Home --------------------------*/
+#headerHome { 
+  background-color: #3C4C70;
+  height: 600px;
+  text-align: left; 
+  padding: 70px 50px;
+  font-size: 50px;
+  color:#3C4C70;
+  font-family: Lucida Handwriting,Cursive,Helvetica,Sans-serif;
+  background-image: url("HomeImg/HomeMade.jpeg"); 
+  background-size: 1500px 800px;
+  background-repeat: no-repeat;
+}
+
+#h1Home { 
+  height: 600px;
+  text-align: left; 
+  padding: 70px 50px;
+  font-size: 50px;
+  color:#3C4C70;
+  font-family: Lucida Handwriting,Cursive,Helvetica,Sans-serif;
+  background-size: 1500px 800px;
+}
+
+#Jmin{
+  background-color:#E2DDCF ; /* #dca1b0 , E2DDCF*/
+  padding:0px 16px 16px 16px;
+  margin:50px 20px 20px 20px;
+  color:#D87F98;
+  text-decoration: none;
+}
+
+
+/*-------------------- Origami / Drawing And Design --------------------------*/
+#wrapperPages { 
+	width: 95%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #EDEEF1;
+}
+
+#mainOrigamiDrawing {
+  background-color:#EDEEF1 ;
+}
+
+#layre1 {
+	background-color: #EDEEF1; /*8C9CAF A99F9F 9168A0*/
+	padding:16px 16px 16px 16px;
+}
+
+#layre2 {
+	background-color: #DCA1B0;
+	padding:30px 100px 30px 100px;
+}
+
+#paragraphOrigamiDrawing {
+	font-size: .90xp;
+}
+
+#layre3 {
+	background-color: #9168A0;
+	padding:16px 16px 16px 16px;
+}
+
+#layre4 {
+	background-color: #EDEEF1;
+	padding:16px 16px 16px 16px;
+}
+
